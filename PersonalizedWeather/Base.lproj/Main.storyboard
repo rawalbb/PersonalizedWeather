@@ -32,6 +32,9 @@
                                                     <constraint firstAttribute="height" constant="40" id="w9N-m4-y2h"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="location.circle.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="locationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="34x-Dh-07K"/>
+                                                </connections>
                                             </button>
                                             <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="GVJ-2O-yOX">
                                                 <rect key="frame" x="40" y="0.0" width="278" height="40"/>
